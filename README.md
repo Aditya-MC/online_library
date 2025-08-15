@@ -1,12 +1,79 @@
-# React + Vite
+# 📚 Online Library Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An online library store built with **React + Vite**, where users can browse books, view details, and manage their cart.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Links
 
-## Expanding the ESLint configuration
+- **GitHub Repository:** [https://github.com/Aditya-MC/online_library](https://github.com/Aditya-MC/online_library)
+- **Live Demo:** [https://Aditya-MC.github.io/online_library/](https://Aditya-MC.github.io/online_library/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- Browse a collection of books
+- View detailed book information
+- Add books to the cart
+- Responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Vite**
+- **Tailwind CSS** 
+- **JavaScript (ES6+)**
+- **GitHub Pages** for deployment
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Aditya-MC/online_library.git
+   cd online_library
+   
+2. **Install dependencies**
+
+npm install
+
+
+3. **Run the development server**
+
+npm run dev
+
+
+The app will be available at http://localhost:5173/
+
+🌐 Deployment (GitHub Pages)
+
+Add this to vite.config.js:
+
+export default defineConfig({
+  base: '/<your-repo-name>/',
+  plugins: [react()],
+})
+
+
+Add the following to package.json:
+
+"homepage": "https://<your-username>.github.io/<your-repo-name>",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+
+
+Deploy the site:
+
+git add .
+git commit -m "Setup GitHub Pages deploy"
+git push
+npm run deploy
+
+Author:
+Aditya-MC
