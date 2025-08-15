@@ -1,3 +1,6 @@
+// GitHub Repository: https://github.com/Aditya-MC/online_library
+// Live Demo: https://Aditya-MC.github.io/online_library/
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
