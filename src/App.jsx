@@ -13,7 +13,7 @@ export default function App() {
       <main className="pt-4">
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/online_library" element={<Home />} />
+          <Route path="/online_library/" element={<Home />} />
           <Route path="/books/:category" element={<BrowseBooks />} />
           <Route path="/book/:id" element={<BookDetails />} />
           <Route path="/add" element={<AddBook />} />
