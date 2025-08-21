@@ -17,7 +17,7 @@ export default function App() {
           <Route path="/books/:category" element={<BrowseBooks />} />
           <Route path="/book/:id" element={<BookDetails />} />
           <Route path="/add" element={<AddBook />} />
-          <Route path="*" element={<NotFound />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
       </main>
     </div>
