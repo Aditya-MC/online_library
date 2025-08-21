@@ -12,6 +12,7 @@ export default function App() {
       <Navbar />
       <main className="pt-4">
         <Routes>
+          <Route index element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/books/:category" element={<BrowseBooks />} />
           <Route path="/book/:id" element={<BookDetails />} />
